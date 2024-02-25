@@ -24,7 +24,7 @@ fun TweetHeader() {
         UserName()
         ProfileName()
         TweetTime()
-        //Spacer(modifier = Modifier.size(100.dp)) //Lazy Solution XD
+        Spacer(modifier = Modifier.weight(1f)) //Lazy Solution XD
         OptionsTweetIcon()
     }
 }
